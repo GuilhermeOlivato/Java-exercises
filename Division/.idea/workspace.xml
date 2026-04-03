@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94f94e6d-0c1f-4edb-8b09-dc41711d6b02" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Calculator/src/main/java/com/calculator/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/src/main/java/com/calculator/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/src/main/resources/com/calculator/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/src/main/resources/com/calculator/hello-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/division/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/division/HelloApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/division/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/division/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/division/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/division/hello-view.fxml" afterDir="false" />
     </list>

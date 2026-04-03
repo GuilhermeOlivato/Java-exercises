@@ -25,10 +25,10 @@ public class HelloController {
         int n1 = Integer.parseInt(valor1.getText());
         int n2 = Integer.parseInt(valor2.getText());
         float div = ((float)n1/n2);
-        float res = (n1%n2);
+        float res = n1%n2;
 
-        divisao.setText(Float.toString(div));
-        resto.setText(Float.toString(res));
+        divisao.setText(String.format("%.2f", div));
+        resto.setText(String.format("%.2f", res));
 
     }
 }
