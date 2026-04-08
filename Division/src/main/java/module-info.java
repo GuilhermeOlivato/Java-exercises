@@ -5,4 +5,5 @@ module com.division {
 
     opens com.division to javafx.fxml;
     exports com.division;
+    requires transitive javafx.graphics;
 }

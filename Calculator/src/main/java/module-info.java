@@ -5,4 +5,5 @@ module com.calculator {
 
     opens com.calculator to javafx.fxml;
     exports com.calculator;
+    requires transitive javafx.graphics;
 }

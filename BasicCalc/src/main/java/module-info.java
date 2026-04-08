@@ -5,4 +5,5 @@ module com.basiccalc {
 
     opens com.basiccalc to javafx.fxml;
     exports com.basiccalc;
+    requires transitive javafx.graphics;
 }
