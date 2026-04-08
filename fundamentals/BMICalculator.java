@@ -11,8 +11,15 @@ public class BMICalculator {
         System.out.print("Enter your name: ");
         String name = scanner.nextLine();
 
-        System.out.print("Enter your weight (kg): ");
-        double weight = scanner.nextDouble();
+        double weight = 0;
+        try {
+            System.out.print("Enter your weight (kg): ");
+            weight = scanner.nextDouble();
+        } catch (java.util.InputMismatchException e) {
+            System.out.println("Invalid input. Please enter a number.");
+        } finally {
+            
+        }
 
         System.out.print("Enter your height (meters): ");
         double height = scanner.nextDouble();

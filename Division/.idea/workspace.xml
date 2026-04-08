@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94f94e6d-0c1f-4edb-8b09-dc41711d6b02" name="Changes" comment="" />
+    <list default="true" id="94f94e6d-0c1f-4edb-8b09-dc41711d6b02" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../fundamentals/BMICalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../fundamentals/BMICalculator.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
