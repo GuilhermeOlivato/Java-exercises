@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane fx:id="fundo" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.division.HelloController">
+   <children>
+      <TextField fx:id="valor1" layoutX="345.0" layoutY="67.0" prefHeight="25.0" prefWidth="45.0" />
+      <TextField fx:id="valor2" layoutX="345.0" layoutY="138.0" prefHeight="25.0" prefWidth="45.0" />
+      <Label fx:id="divisao" layoutX="361.0" layoutY="226.0" text="0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="108.0" layoutY="134.0" text="Denominador">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="119.0" layoutY="63.0" text="Numerador">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="139.0" layoutY="226.0" text="Divisão">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="resto" layoutX="361.0" layoutY="272.0" text="0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="147.0" layoutY="272.0" text="Resto">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="dividirBotao" layoutX="231.0" layoutY="175.0" mnemonicParsing="false" onAction="#clicouBotao" text="Dividir">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

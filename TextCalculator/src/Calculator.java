@@ -1,33 +1,23 @@
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Calculator {
 
-    public static void main(String[] args){
-        Scanner scanner = new Scanner(System.in);
-        String input = "";
-        String digit = "";
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        String numero = "";
+        String digito;
+        System.out.println("Digite um numero de cada vez: ");
+        while (true) {
+            digito = teclado.next();
+            if (digito.equals("done")) break;
+            numero = numero + digito;
+            System.out.println("numero atual: " + numero);
 
-        System.out.println("Digite um numero após o outro: ");
 
-        while (true){
-            digit = scanner.next();
 
-            if (digit.equals("done"))break;
-
-            if (digit.matches("[0-9]")) {
-                input = input + digit;
-                System.out.println("Current number: " + input);
-            } else {
-                System.out.println("Error: please type a digit (0-9)!");
-            }
+            int number = (int) Double.parseDouble(numero);
+            System.out.println("Numero final: " + number);
         }
-        double number = Double.parseDouble(input);
-        System.out.println("O numero digitado foi: " + number);
-
-
-
-
-
     }
-
 }
