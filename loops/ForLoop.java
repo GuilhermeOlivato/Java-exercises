@@ -6,7 +6,6 @@ public class ForLoop {
         Scanner teclado = new Scanner(System.in);
         int valor;
         int soma = 0;
-        Scanner 
 
         System.out.println("Escolha quantas vezes o valor será inserido: ");
         int vezes = teclado.nextInt(); 
@@ -18,12 +17,12 @@ public class ForLoop {
             soma = soma + valor;
             System.out.println("Valor atual da soma: " + soma);
         }
-         
+         System.out.println("Foram somados " + vezes + " valores. Sendo a soma total: " + soma);
+    teclado.close();
         
     }
-    
-    System.out.println("Foram somados " + vezes + " valores. Sendo a soma total: " + soma);
-        teclado.close();
 
+    
+    
 
 }
