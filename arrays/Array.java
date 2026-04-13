@@ -3,11 +3,11 @@ public class Array {
     public static void main(String[] args) {
         int[] fruits = {};
         String[] names = {};
-        names = new String[NumFruits]; 
         Scanner teclado = new Scanner(System.in);
         System.out.println("Digite o numero de frutas: ");
         int NumFruits = teclado.nextInt();
         fruits = new int[NumFruits];
+        names = new String[NumFruits];
         for (int i = 0; i < fruits.length; i++) {
             System.out.println("Digite o nome da fruta: ");
             String name = teclado.next();
