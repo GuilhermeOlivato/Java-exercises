@@ -1,4 +1,4 @@
-import java.util.Scanner;
+/*import java.util.Scanner;
 
 public class Array5 {
     public static void main(String[] args) {
@@ -23,4 +23,33 @@ public class Array5 {
             System.out.println("Number not found in the array.");
         }
     }
+}*/
+
+import java.util.Scanner;
+
+public class Array5 {
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+
+        int [] numbers;
+        boolean isFound = false;
+        int totalNumbers;
+
+        System.out.println("how many numbers do you want to enter?");
+        totalNumbers = teclado.nextInd();
+
+        for (int i = 0; i < totalNumbers; i++){
+            System.out.println("Enter the " + (i+1) + " number");
+            numbers[i] = teclado.nextInt();
+
+
+        }
+        for (int c = 0; c < totalNumbers; c++){
+            System.out.println(numbers[c]);
+
+        }
+
+    }
+
+
 }
