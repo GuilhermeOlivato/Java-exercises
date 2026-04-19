@@ -3,8 +3,6 @@ import java.util.Scanner;
 public class Array6 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-
-        boolean isFound = false;
         int totalNumbers = 0;
         
         System.out.println("how many numbers do you want to enter?");
@@ -37,11 +35,12 @@ public class Array6 {
         System.out.print("The numbers are: ");
 
         for (int c = 0; c < totalNumbers; c++){
-            System.out.print(numbers[c] + ", ");
-
+            if(c < totalNumbers - 1){
+                System.out.print(numbers[c] + ", ");
+            }
+            else{
+                    System.out.print(numbers[c] + ".");
+            }
         }
-
     }
-
-
 }
