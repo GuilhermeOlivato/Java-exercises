@@ -11,7 +11,10 @@ public class Array6 {
                 totalNumbers = teclado.nextInt();
                 break;
             } catch (Exception e){
+                System.out.println("");
                 System.out.println("Invalid input, numbers only.");
+                System.out.println("------------------------------");
+                System.out.println("How many numbers do you want to enter?");
                 teclado.nextLine();
 
             }
@@ -28,6 +31,7 @@ public class Array6 {
                     break;
                 } catch (Exception e) {
                     System.out.println("Invalid input, numbers only.");
+                    System.out.println("Enter the " + (i+1) + " number");
                     teclado.nextLine();
                 }
             }
