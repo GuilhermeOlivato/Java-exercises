@@ -7,7 +7,7 @@ public class Array7 {
         String[] foods;
         int size;
 
-        System.out.println("How many foods do you want to select? Hein ");
+        System.out.println("How many foods do you want to select? Hein, imbecil? ");
         size = scanner.nextInt();
         scanner.nextLine();
 
@@ -20,7 +20,8 @@ public class Array7 {
         }
         
         for (String food : foods){
-            System.out.println(food);
+            
+            System.out.println("Fruta ", food);
         }
     }
 }
