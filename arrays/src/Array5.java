@@ -81,6 +81,7 @@ import java.util.Scanner;
                      for (int c = 0 ; c < totalNumbers ; c++){
 
                     System.out.println("Number-" + (c+1) + " :" + numbers[c]);   
+                    System.out.println("--------------------");
                     }
 
 
