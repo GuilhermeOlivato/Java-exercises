@@ -25,7 +25,7 @@ public class Array5 {
     }
 }*/
 
-import java.util.Scanner;
+/*import java.util.Scanner;
 
 public class Array5 {
     public static void main(String[] args) {
@@ -52,4 +52,38 @@ public class Array5 {
     }
 
 
-}
+} */
+
+import java.util.Scanner;
+
+    public class Array5{
+        public static void main(String[] args) {
+            Scanner teclado = new Scanner(System.in);
+            int totalNumbers = 0;
+
+            System.out.println("how many numbers do you want to enter");
+            while (!teclado.hasNextInt()){
+                    System.out.println("Invalid input");
+                    teclado.nextLine();
+            }
+            totalNumbers = teclado.nextInt();
+                    
+            int[] numbers = new int[totalNumbers];
+                        
+            for(int i=0; i < totalNumbers;i++) {
+                System.out.println("Enter the " + (i+1) + " number");
+                            while (!teclado.hasNextInt()){
+
+                                teclado.nextLine();
+                            }
+                            numbers[i] = teclado.nextInt();
+                        }
+                     for (int c = 0 ; c < totalNumbers ; c++){
+
+                    System.out.println("Number-" + (c+1) + " :" + numbers[c]);   
+                    }
+
+
+        }
+
+    }
