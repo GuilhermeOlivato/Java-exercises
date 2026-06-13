@@ -14,8 +14,10 @@ public class File10 {
         witdh = teclado.nextInt();
 
         int area = (height * witdh);
-
+        int paint = (area/2);
         System.out.println("Total area is " + area + "m².");
+        System.out.println("Total liters of paint necessary: " + paint + "L.");
+    
 
     }
 
