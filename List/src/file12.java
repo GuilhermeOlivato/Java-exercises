@@ -7,10 +7,10 @@ public class file12 {
         double price = 0;
         System.out.println("Type the price of the product: ");
         price = teclado.nextDouble();
-
         double finalPrice = ((price * 95) /100);
-
+        
         System.out.println("Final price is: " + finalPrice);
-
+        
+        teclado.close();
     }
 }
