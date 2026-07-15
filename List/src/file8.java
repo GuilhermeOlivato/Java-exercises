@@ -1,3 +1,5 @@
+package List.src;
+
 import java.util.Scanner;
 
 public class file8 {
