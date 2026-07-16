@@ -1,6 +1,5 @@
 package List.src;
 import java.util.Scanner;
-import java.time.LocalDate;
 
 
 public class file18 {
