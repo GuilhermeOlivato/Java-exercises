@@ -11,22 +11,21 @@ public class SwitchCase {
         System.out.println("2 - Super Speed");
         System.out.println("3 - Super Vision");
         int choice;
-        boolean isOver = false;
-
-        while(!isOver){
+        boolean isover = false;
+        while(!isover){
             choice = scanner.nextInt();
             switch(choice) {
                 case 1:
                     System.out.println("You now have Super Strength");
-                    isOver = true;
+                    isover = true;
                     break;
                 case 2:
                     System.out.println("You now have Super Speed");
-                    isOver = true;
+                    isover = true;
                     break;
                 case 3:
                     System.out.println("You now have Super Vision");
-                    isOver = true;
+                    isover = true;
                     break;
                 default:
                     System.out.println("Choose a valid option");
