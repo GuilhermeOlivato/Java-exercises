@@ -6,6 +6,7 @@ public class SimpleRecord {
         Scanner scanner = new Scanner(System.in);
         int totalNinjas;
 
+
         System.out.println("\n===== Menu Ninja =====");
         System.out.println("\nHow many Ninjas will be registered?");
         totalNinjas = scanner.nextInt();
@@ -41,6 +42,8 @@ public class SimpleRecord {
                     break;
                 case 3:
                     System.out.println("Exiting the program.");
+                    break;
+                case 4:
                     break;
 
                 default:
